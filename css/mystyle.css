@@ -9,11 +9,67 @@
 
 /* Definições da navbar */
 .bg-minha_cor {
-    background: rgb(23, 137, 186);
+    background: rgb(183, 4, 4);
 }
 
 #navbar-items .navbar-nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+}
+
+.container{
+    display: flex;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+
+.tabuleiro {
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 100%;
+}
+
+.grid {
+    border: 0.4rem groove black;
+    min-width: 150px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: rgb(183, 4, 4);
+    cursor: pointer;
+    background-color:white;
+  }
+
+#reinicia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(183, 4, 4);
+    font-size: 1rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    border: 4px groove black;
+}
+
+.renova{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
